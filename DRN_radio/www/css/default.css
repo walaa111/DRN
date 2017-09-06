@@ -1,0 +1,128 @@
+body, html {
+    height: 100%;
+    margin: 0;
+         background-color: #41117d;
+        overflow-x: hidden;
+}
+
+/*loading*/
+
+.loading{
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  position: absolute;
+  top:0px;
+  bottom: 0px;
+  background-color: #41117d;
+
+}
+.loading img
+{
+  position: relative;
+top:30%;
+display: block;
+margin: 12px auto;
+width: 100%;
+}
+
+/*end loading*/
+.bg {
+    background-image: url("../pics/20245846_104791120197978_9130866672353052441_n.png");
+
+    height: 100%; 
+width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg img{
+      position: relative;
+    width: 188px;
+    height: 125px;
+    top: 33px;
+    margin: 10px auto;
+    display: block;
+    right: 0px;
+}
+.all
+{
+    
+}
+.bg h1{
+  color: white;
+  position: absolute;
+  bottom: 10px;
+  right: 0px;
+  left: 0px;
+font-family: cursive;
+font-size: 45px;
+display: inline;
+float: left;
+}
+.bg ul{
+    padding-left: 0px;
+    margin-bottom: 10px
+}
+.bg ul li{
+    display: inline;
+margin-right: 4px;
+font-size: 15px;
+}
+.footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    padding-top: 5px;
+    right: 0px;
+    color: #dde1ff;
+}
+.footer ul li{
+display: inline-block;
+margin-right: 4px;
+}
+.bg .fa{
+    padding: 5px;
+    border: 1px solid #febf07;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    
+}
+.bg .fa:hover{
+color: #febf07;
+
+}
+.bg a {
+    color: unset;
+    text-decoration: unset;
+}
+.bg .fa-instagram
+{
+ padding-right: 7px;
+    padding-left: 7px;
+}
+.bg .fa-facebook
+{
+    padding-right: 9px;
+    padding-left: 9px;
+}
+@media(max-width:1024px){
+  .bg {
+
+    background-size: contain;
+
+}
+}
+@media(max-width:500px){
+.bg h1 {
+    color: white;
+    position: absolute;
+    bottom: 109px;
+    right: 0px;
+    left: 0px;
+    font-family: cursive;
+    font-size: 30px;
+    bottom: 50px;
+}
+}
